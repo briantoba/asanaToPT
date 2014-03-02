@@ -115,7 +115,7 @@ function getTaskDetails(tasks) {
 }
 
 function printTasks(projects) {
-	console.log("/nProjects: ");
+	console.log("\nProjects: ");
 	
 	for(var i in projects) {
 		var p = projects[i];
